@@ -1,1 +1,1 @@
-# WeblabSPA
+# web_lab_6
