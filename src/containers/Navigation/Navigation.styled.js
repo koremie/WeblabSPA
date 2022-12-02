@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const HeaderWrapper = styled.div`
     width: 100%;
-    height: 75px;
+    height: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,12 +10,16 @@ export const HeaderWrapper = styled.div`
     border-bottom: 2px solid #000;
 `;
 
+export const BodyWrapper = styled.div`
+    flex: 1 1 auto;
+`;
+
 export const LogoWrapper = styled.div`
     position: absolute;
     height: 60px;
     width: 60px;
     left: 70px;
-    top: 7px;
+    top: 15px;
     display: flex;
     align-items: center;
 
@@ -28,7 +32,7 @@ export const LogoWrapper = styled.div`
 
 export const LinkingWrapper = styled.div`
     width: 40%;
-    height: 60%;
+    height: 45px;
     display: flex;
     justify-content: center;
     align-items: center;

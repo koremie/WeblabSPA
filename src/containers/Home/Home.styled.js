@@ -28,7 +28,8 @@ export const Wrapper = styled.div`
 
 export const HomeCardWrapper = styled.div`
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: start;
     margin-bottom: 5%;
 
     div{
@@ -37,14 +38,17 @@ export const HomeCardWrapper = styled.div`
         flex: 0 0 27%;
         align-items: center;
         text-align: center;
+        margin-bottom: 40px;
+        margin-left: 4.5%;
 
         img{
             display: block;
             width: 100%;
+            margin-bottom: 20px;
         }
 
         h2{
-            margin-bottom: -5px;
+            margin-bottom: 10px;
         }
     }
 `;
